@@ -1,0 +1,20 @@
+﻿<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <attr path="/api/package[@name='com.leanplum']" name="managedName">LeanplumBindings</attr>
+  <attr path="/api/package[@name='com.leanplum.activities']" name="managedName">LeanplumBindings.Activities</attr>
+  <attr path="/api/package[@name='com.leanplum.annotations']" name="managedName">LeanplumBindings.Annotations</attr>
+  <attr path="/api/package[@name='com.leanplum.callbacks']" name="managedName">LeanplumBindings.Callbacks</attr>
+  <attr path="/api/package[@name='com.leanplum.messagetemplates']" name="managedName">LeanplumBindings.MessageTemplates</attr>
+  <attr path="/api/package[@name='com.leanplum.utils']" name="managedName">LeanplumBindings.Utils</attr>
+  <attr path="/api/package[@name='com.leanplum.views']" name="managedName">LeanplumBindings.Views</attr>
+  <remove-node path="/api/package[@name='com.leanplum.messagetemplates']/class[@name='InterstitialOptions']" />
+  <remove-node path="/api/package[@name='com.leanplum.messagetemplates']/class[@name='CenterPopupOptions']" />
+  <remove-node path="/api/package[@name='com.leanplum.messagetemplates']/class[@name='BaseMessageDialog']" />
+  <attr path="/api/package[@name='com.leanplum.callbacks']/class[@name='VariableCallback']/method[@name='handle']" name="managedName">HandleVar</attr>
+</metadata>
